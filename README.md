@@ -11,11 +11,13 @@
 ## 🛠️ Инструкция по развертыванию
 
 1.**Клонируйте репозиторий:**
+
    git clone https://github.com/Pro100sashaHD/TelegramNotificationBot
    
    cd TelegramNotificationBot
 
 2.**Настройка виртуального окружения:**
+
    # Для Windows
     
    python -m venv .venv
@@ -33,6 +35,7 @@
    pip install -r requirements.txt
    
 4.**Настройка секретов**
+
   #Windows
   
   copy example.env .env
@@ -46,6 +49,7 @@
   ENCRYPTION_KEY Генерируется самостоятельно разработчиком/администратором на целевом сервере через скрипт generate_key.py
   
 5.**Получение credentials.json от Google**
+
  Перейдите в Google Cloud Console.
  
  Создайте проект и включите Google Calendar API. 
