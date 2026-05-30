@@ -16,17 +16,17 @@
    cd TelegramNotificationBot
 
 2.**Настройка виртуального окружения:**
-    # Для Windows
+   # Для Windows
     
-    python -m venv .venv
+   python -m venv .venv
     
-    .venv\Scripts\activate
+   .venv\Scripts\activate
     
-    # Для Linux / macOS
+   # Для Linux / macOS
     
-    python3 -m venv .venv
+   python3 -m venv .venv
     
-    source .venv/bin/activate
+   source .venv/bin/activate
 
 3.**Установка зависимостей**
 
@@ -61,6 +61,8 @@
 
 /history — Выводит список из 10 последних встреч, время окончания которых уже наступило.  
 
-🔒 Безопасность данныхПроект разработан с учетом строгих требований к конфиденциальности:  Конфиденциальные файлы (.env, credentials.json, bot_database.db, файлы логов) внесены в .gitignore и никогда не попадут в публичный доступ.  
+🔒 **Безопасность данных**
+
+Проект разработан с учетом строгих требований к конфиденциальности:  Конфиденциальные файлы (.env, credentials.json, bot_database.db, файлы логов) внесены в .gitignore и никогда не попадут в публичный доступ.  
 
 Данные авторизации пользователей (refresh_token и access_token) шифруются криптостойким алгоритмом AES в режиме CBC с использованием HMAC для аутентификации (библиотека cryptography), что исключает компрометацию данных даже при прямой утечке файла базы данных.
