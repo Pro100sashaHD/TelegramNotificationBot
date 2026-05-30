@@ -43,10 +43,10 @@ TelegramBot/
    pip install -r requirements.txt
    
 4. **Настройка секретов**
-   # Windows
+  #Windows
   copy example.env .env
 
-  # Linux / macOS
+  #Linux / macOS
   cp example.env .env
 5. **Получение credentials.json от Google**
  Перейдите в Google Cloud Console.
