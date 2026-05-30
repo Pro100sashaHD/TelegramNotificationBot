@@ -40,6 +40,11 @@
   #Linux / macOS
   
   cp example.env .env
+
+  TELEGRAM_TOKEN Выдается официальным ботом @BotFather в Telegram при создании нового бота (команда /newbot).
+
+  ENCRYPTION_KEY Генерируется самостоятельно разработчиком/администратором на целевом сервере через скрипт generate_key.py
+  
 5.**Получение credentials.json от Google**
  Перейдите в Google Cloud Console.
  
